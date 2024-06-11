@@ -1,10 +1,8 @@
 #include <stdio.h>
 #include <stdint.h>
 #include <string.h>
-
 // Number of rounds
 #define NUM_ROUNDS 16
-
 // Permutation tables (PC1 and PC2) - Actual tables
 int PC1[56] = {
         57, 49, 41, 33, 25, 17, 9,
